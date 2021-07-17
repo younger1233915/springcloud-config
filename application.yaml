@@ -1,19 +1,17 @@
 spring:
   profiles:
-    active:  dev
+    active: dev
 
---
+---
 
 spring:
   profiles: dev
     application:
-      name: springc;oud-config-dev
+      name: springcloud-config-dev
 
 
---
-
-
+---
 spring:
   profiles: test
     application:
-      name: springc;oud-config-test
+      name: springcloud-config-test
