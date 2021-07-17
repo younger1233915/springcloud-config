@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:  dev
+
+--
+
+spring:
+  profiles: dev
+    application:
+      name: springc;oud-config-dev
+
+
+--
+
+
+spring:
+  profiles: test
+    application:
+      name: springc;oud-config-test
